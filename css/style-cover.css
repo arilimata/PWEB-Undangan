@@ -1,0 +1,51 @@
+body {
+    background-image: 
+        linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(0, 0, 0, 1)),
+        url("../img/bg-cover.jpg");
+    background-size: cover;
+    height: 902px;
+    color: white;
+    padding: 20px;
+    
+}
+
+.wedding-name{
+    left: 0px;
+    right: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.wedding-name h2{
+    font-family: "Sofia";
+    font-size: 100px;
+    text-align: center;
+}
+
+a {
+    top: 700px;
+    right: 0px;
+    left: 0px;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+.btn-display:hover {
+    background-color: rgba(0, 0, 0, 0.20);
+}
+
+a .btn-display{
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
