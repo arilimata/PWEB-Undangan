@@ -78,7 +78,7 @@ body{
 
 .content-main .home{
     margin-top: 100px;
-    height: 800px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,6 +99,11 @@ body{
     text-align: center;
     font-size: 80px;
     color: rgba(153,110,109,255);
+}
+
+.content-main .home img {
+    width: 150px;
+    border-radius: 75px;
 }
 
 .content-main .time {
